@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^consultant-appointmentSchedule$ consultant-appointmentSchedule.php
+AddType application/x-httpd-php .html
+
+AddHandler application/x-httpd-php .html

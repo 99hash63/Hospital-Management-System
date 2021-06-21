@@ -1,0 +1,273 @@
+
+/*HOSPITAL MANAGEMENT SYSTEM*/
+
+
+ /*Header*/
+header{
+	display: inline;
+	overflow: hidden;
+	padding: 20px 10px;	
+}
+
+header a{
+	text-decoration:none;
+	padding:20px;
+	color: #283291;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	font-size:18px;
+ }
+
+header a:hover {
+  color: 21d34b;
+}
+  
+img.logo {
+	position:absolute;
+	top:15px;
+	left:15px;
+	
+}	 
+ 
+ 
+h2.title1{
+	position:absolute;
+	top:12px;
+	left:147px;
+	font-family: 'Roboto', sans-serif;
+	font-size:26px;
+	
+ }
+ 
+ h2.title2{
+	position:absolute;
+	top:40px;
+	left:140px;
+	font-family: 'Roboto', sans-serif;
+	font-size:26px;
+	
+ }
+ 
+ h2{
+	 text-align:center;
+	font-family: 'Roboto', sans-serif;
+	font-size:25px;
+ }
+ 
+ nav{
+	 position:absolute;
+	 right:100px;
+	 top:55px;
+ }
+
+.hr{
+	border:0px solid #283291;
+	margin-top:40px;
+	
+ }
+ /*Header*/
+
+/*heading*/
+
+.htext {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  font-size:38px;
+
+}
+
+
+ 
+ 
+/*contact info*/
+
+}
+h3{
+	margin-left:200px;
+	font-size:22px;
+	
+}
+
+.address{
+	left:155px;
+	position:relative;
+	top:30px;
+}
+
+.contact{
+	right:400px;
+	position:absolute;
+	top:400px;
+	
+}
+
+
+/*contact info*/
+
+/*contact form*/
+.container{
+	top: 80px;
+	left: 155px;
+	position: relative;
+	margin-bottom: 150px;
+}
+.name{
+	margin-bottom: 25px;
+}
+input[type=text]{
+	width: 500px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 5px;
+	
+}
+input[type=email]{
+	width: 500px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+input[type=submit]{
+	background-color: #283291;
+	color: white;
+	padding: 6px 20px;
+	border: none;
+	border-radius: 0px;
+	cursor: pointer; 
+}
+
+input[type=submit]:hover {
+  background-color: 21d34b;
+ }
+
+ textarea{
+ 	height: 150px;
+ 	width: 500px;
+ }
+
+
+
+.myform {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+/*contact form*/
+
+/*map*/
+.smap{
+	width:500px;
+	height:400px;
+	position: absolute;
+	top: 650px;
+	left: 850px;
+}
+ 
+
+ /***************** footer ****************/
+
+
+.footer {
+background-color: #000044;
+font-family : 'Roboto', sans-serif;
+color: #9b9b9b;
+position: relative;
+width: 100%;
+height: 150px;
+}
+
+.follow{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.getthe{
+	position: absolute;
+	top: 20px;
+	left: 400px;
+}
+
+
+.copy{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+
+.fb,.insta,.twitter{
+	height :40px;
+	width : 40px;
+	position: absolute;
+
+}
+
+.fb{
+	top: 50px;
+	left: 20px;
+}
+
+.insta{
+	top: 50px;
+	left: 70px;
+}
+
+.twitter{
+	top: 50px;
+	left:120px;
+}
+
+.android, .ios{
+	position: absolute;
+	height: 40px;
+	width: auto;
+}
+
+.android {
+	top: 50px;
+	left: 400px;
+}
+
+.ios{
+	top: 50px;
+	left: 550px;
+}
+
+
+ /***************** footer ****************/
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,256 @@
+*HOSPITAL MANAGEMENT SYSTEM*/
+
+
+ /*Header*/
+header{
+	display: inline;
+	overflow: hidden;
+	padding: 20px 10px;	
+}
+
+header a{
+	text-decoration:none;
+	padding:20px;
+	color: #283291;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	font-size:18px;
+ }
+
+header a:hover {
+  color: 21d34b;
+}
+  
+img.logo {
+	position:absolute;
+	top:15px;
+	left:15px;
+	
+}	 
+ 
+ 
+h2.title1{
+	position:absolute;
+	top:12px;
+	left:147px;
+	font-family: 'Roboto', sans-serif;
+	font-size:26px;
+	
+ }
+ 
+ h2.title2{
+	position:absolute;
+	top:40px;
+	left:140px;
+	font-family: 'Roboto', sans-serif;
+	font-size:26px;
+	
+ }
+ 
+ h2{
+	 text-align:center;
+	font-family: 'Roboto', sans-serif;
+	font-size:25px;
+ }
+ 
+ nav{
+	 position:absolute;
+	 right:100px;
+	 top:55px;
+ }
+
+.hr{
+	border:0px solid #283291;
+	margin-top:40px;
+	
+ }
+ /*Header*/
+
+ /*heading*/
+
+.htext {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  font-size:38px;
+
+}
+
+.last{
+	position: relative;
+}
+
+
+/*table*/
+
+.container{
+	overflow: hidden;
+}
+
+th,td{
+	padding: 15px;
+}
+.th1 {
+  background-color: #000044;
+  color: white;
+  
+}
+
+.th2{
+	background-color: #000044;
+    color: white;
+	text-align: left;
+}
+
+.th3{
+	background-color: #110076;
+	color: white; 
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+td{
+	text-align: center;
+	padding: 15px;
+}
+
+table {
+  	border-collapse: collapse;
+  	width: 60%;
+  	position: relative;
+  	left: 50px;
+  	margin-bottom: 100px;
+  	margin-top: 100px;
+  	
+
+}
+	
+.edit{
+	position: absolute;
+	right: 50px;
+	top: 470px;
+}
+
+.edit input{
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type=text]{
+	width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+tr{
+	transition: all .25s ease-in-out;
+}
+
+tr:hover{
+	background-color: 21d34b;
+	cursor: pointer;
+}
+
+.btn{
+	background-color: #283291;
+	color: white;
+	padding: 6px 20px;
+	border: none;
+	border-radius: 0px;
+	cursor: pointer; 
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+.btn:hover{
+	background-color: 21d34b;
+}
+
+/*table*/
+ 
+
+ /***************** footer ****************/
+
+
+.footer {
+background-color: #000044;
+font-family : 'Roboto', sans-serif;
+color: #9b9b9b;
+position: relative;
+width: 100%;
+height: 150px;
+}
+
+.follow{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.getthe{
+	position: absolute;
+	top: 20px;
+	left: 400px;
+}
+
+
+.copy{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+
+.fb,.insta,.twitter{
+	height :40px;
+	width : 40px;
+	position: absolute;
+
+}
+
+.fb{
+	top: 50px;
+	left: 20px;
+}
+
+.insta{
+	top: 50px;
+	left: 70px;
+}
+
+.twitter{
+	top: 50px;
+	left:120px;
+}
+
+.android, .ios{
+	position: absolute;
+	height: 40px;
+	width: auto;
+}
+
+.android {
+	top: 50px;
+	left: 400px;
+}
+
+.ios{
+	top: 50px;
+	left: 550px;
+}
+
+
+ /***************** footer ****************/
+

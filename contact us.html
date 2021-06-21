@@ -1,0 +1,141 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>Contact Us </title>
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+<script type="text/javascript" src="js/contact.js"></script>
+</head>
+
+<body>
+<!--header-->
+ 
+
+
+	<header>
+		<img class="logo"  src="images/logo.png" alt="Serendib Hospitals"  border ="0" height="90px"  width ="90px">
+	
+
+	<nav>
+		<a href="home.html"> HOME</a>
+		<a href="register.html"> REGISTER</a>
+		<a href="login.html">LOGIN</a>
+		<a href="contact us.html"> CONTACT US</a>
+		<a href="about us.html"> ABOUT US</a>
+		<a href="account.html">  ACCOUNT</a>
+	</nav>
+	
+	
+	
+	<i>
+		<h2 class = "title1"> SERENDIB </h2> <br>
+		<h2 class = "title2"> HOSPITALS </h2> <br>
+	</i>
+	
+	
+	</header> 
+	<hr class = "hr">
+<!-- header-->
+
+
+
+	
+<!-- heading -->
+	<div class="htext">
+	  <img src="images/head.jpg" alt="img" style="width:100%; height:250px; margin-left: 0;">
+	  
+	  <div class="top-left">Contact Us</div>
+	  
+	</div>
+	
+	
+<!-- contact info-->	
+	<div class = "address">
+	
+		<h4>Serendib Hospitals PLC</h4>
+		<h4>43, Upeksha R. C Dharmadasa Mawatha, Malabe,</h4>
+		<h4>Sri Lanka.</h4>
+		<br>
+
+
+	
+	</div>
+	
+	<div class = "contact" >
+	<h4>Generel Line: 0112456653</h4>
+	<h4>Channeling Hotline : 0112456652</h4>
+	<h4>Fax : 0112456651</h4>
+	<h4>Email : serendibhospitals@gmail.com</h4>
+	</div><br>
+<!-- contact info-->
+
+<!-- contact form-->
+
+	<div class = "container" >
+		<form >
+
+			<label for = "fname">Name</label><br>
+			<input class="name" type= "text" id = "fname" name = "firstname" placeholder = "Enter your name here..">
+			<br>
+
+
+			<label>E-mail Address</label><br>
+			<input type="text" id="email" name="Myemail"  placeholder = "name@domain.com"onchange="emailVal()"><br>
+			<label id="etext" style="color: red; visibility: hidden;" >Warning</label>
+			<br>
+			<br>
+
+			<label>Mobile Number</label><br>
+			<input type="text" name="Mobile Number" id="mNo"  placeholder = "Phone No.."onchange="mobileVal()"><br>
+			<label id="wtext" style="color: red; visibility: hidden;" >Warning</label>
+			<br>
+			<br>
+							
+			<label for = "subject" >Message</label><br>
+			<textarea id="subject" name="subject" placeholder="Say something.."></textarea>
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+
+			<? php 
+				echo "hi";
+				include 'scheduleTable.php'; 
+			?>
+
+		</form>	
+	</div>	
+			
+<!-- contact form-->
+
+<!-- map -->
+
+<div class="smap" id="googleMap"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+<!-- footer -->
+
+<div class="footer">
+	<div class= "follow">Follow us on </div>
+	<div class="getthe">Get the app </div>
+	<div class="copy">Copyright &copy; Serendib Hospitals PLC <br> 253f, <br>Udaya Mawatha,<br> Malabe. </div>
+
+	<div class="socialbuttons">
+		<a href="https://www.facebook.com"><img src="images/footer/fb.png" alt="facebook" class="fb"></a>
+		<a href="https://www.instagram.com"><img src="images/footer/insta.webp" alt="instagram" class="insta"></a>
+		<a href="https://www.twitter.com"><img src="images/footer/twitter.png" alt="twitter" class="twitter"></a>
+		<a href="https://www.play.google.com"><img src="images/footer/android.png" alt="play store" class="android"></a>
+		<a href="https://www.apple.com/ios/app-store/"><img src="images/footer/ios.png" alt="app store" class="ios" ></a>
+	</div>
+
+</div>
+
+
+<!-- end of page -->
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>consultant</title>
+<link rel="stylesheet" type="text/css" href="styles/consultant-appointmentSchedule.css">
+<script type="text/javascript" src="js/myScript.js"></script>
+</head>
+
+<body>
+<!--header-->
+ 
+
+
+
+	<header>
+		<img class="logo"  src="images/logo.png" alt="Serendib Hospitals"  border ="0" height="90px"  width ="90px">
+	
+
+	<nav>
+		<a href="home.html"> HOME</a>
+		<a href="register.html"> REGISTER</a>
+		<a href="login.html">LOGIN</a>
+		<a href="contact us.html"> CONTACT US</a>
+		<a href="about us.html"> ABOUT US</a>
+		<a href="account.html">  ACCOUNT</a>
+	</nav>
+	
+	
+	
+	<i>
+		<h2 class = "title1"> SERENDIB </h2> <br>
+		<h2 class = "title2"> HOSPITALS </h2> <br>
+	</i>
+	
+	
+	</header> <br>
+	<hr class = "hr">
+<!-- header-->
+
+<!-- heading -->
+	<div class="htext">
+	  <img src="images/head.jpg" alt="img" style="width:100%; height:250px; margin-left: 0;">
+	  
+	  <div class="top-left">Appointment Schedule</div>
+	  
+	</div>
+
+
+<!-- first bar -->
+<hr>
+<h3>Appointments this week</h3>
+<hr>
+
+
+<!-- first bar -->
+
+
+<!-- table -->
+
+
+
+
+<div class="tmargin">
+	<table border="1" width="100%" class="margin" class="table">
+		<tr>
+			<th></th>
+			<th>Date</th>
+			<th>STAR TIME</th>
+			<th>END TIME</th>
+			<th>NO OF APPOINTMENTS</th>
+			<th>ROOM NO</th>
+		</tr>
+
+		<?php 
+			include 'php/scheduleTable.php';
+		?>
+
+	</table>
+	
+</div>
+
+<!-- table -->
+
+
+	
+
+<!-- second bar -->
+
+
+
+
+
+<div class="last">
+	<hr>
+	<h3>Update unavailability</h3>
+	<hr>
+</div>
+<input type="submit" value="Edit" onclick="document.location = 'doctor edit.html'">
+
+
+<!-- second bar -->
+
+<!-- footer -->
+
+<div class="footer">
+	<div class= "follow">Follow us on </div>
+	<div class="getthe">Get the app </div>
+	<div class="copy">Copyright &copy; Serendib Hospitals PLC <br> 253f, <br>Udaya Mawatha,<br> Malabe. </div>
+
+	<div class="socialbuttons">
+		<a href="https://www.facebook.com"><img src="images/footer/fb.png" alt="facebook" class="fb"></a>
+		<a href="https://www.instagram.com"><img src="images/footer/insta.webp" alt="instagram" class="insta"></a>
+		<a href="https://www.twitter.com"><img src="images/footer/twitter.png" alt="twitter" class="twitter"></a>
+		<a href="https://www.play.google.com"><img src="images/footer/android.png" alt="play store" class="android"></a>
+		<a href="https://www.apple.com/ios/app-store/"><img src="images/footer/ios.png" alt="app store" class="ios" ></a>
+	</div>
+
+</div>
+
+
+<!-- end of page -->
+</body>
+</html>

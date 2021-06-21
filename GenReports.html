@@ -1,0 +1,165 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>Generate-Reports</title>
+<link rel="stylesheet" type="text/css" href="styles/GenReports.css">
+<script type="text/javascript" src="js/GenReports.js"></script>
+
+</head>
+
+<body>
+
+<!--header-->
+ 
+	<header>
+		<img class="logo"  src="images/logo.png" alt="Serendib Hospitals"  border ="0" height="90px"  width ="90px">
+			
+
+		<nav>
+		<a href="home.html"> HOME</a>
+		<a href="register.html"> REGISTER</a>
+		<a href="login.html">LOGIN</a>
+		<a href="contact us.html"> CONTACT US</a>
+		<a href="about us.html"> ABOUT US</a>
+		<a href="account.html">  ACCOUNT</a>
+	</nav>
+			
+			
+			
+		<i>
+			<h2 class = "title1"> SERENDIB </h2> <br>
+			<h2 class = "title2"> HOSPITALS </h2> <br>
+		</i>
+			
+			
+	</header> <br>
+	<hr class = "hr">
+<!-- header-->
+
+<!-- heading -->
+	<div class="htext">
+	  <img src="images/head.jpg" alt="img" style="width:100%; height:250px; margin-left: 0;">
+	  
+	  <div class="top-left">Edit Lab Reports</div>
+	  
+	</div>
+		
+
+<!-- table -->
+
+
+	<div class="container">
+		<div class="labtable">
+			<table id="table" border="1" >
+				
+				<tr>
+					<th colspan="4" class="th1">Serendib Hospitals <br>
+									Tel: 01128496622 <br>
+									E-mail: serendibhospitals@gmail.com
+					</th>
+				</tr>
+
+				<tr>
+					<th colspan="4" class="th2">Patient ID: p0028543 <br>
+									Sample No: 056528496622 <br>
+									Name: S.Shantha Chaminda <br>
+									Doctor: D.B.Karunaratne
+					</th>
+				</tr>
+
+				<tr class="th1">
+					<th>Test Name</th>
+					<th>Result</th>
+					<th>Normal Range</th>
+					<th>Observation</th>					
+				</tr>
+				<tr>
+					<td>fbc</td>
+					<td>5</td>
+					<td>2-20</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>crp</td>
+					<td>8</td>
+					<td>00-10</td>
+					<td>Noramal</td>
+				</tr>
+				<tr>
+					<td>bac</td>
+					<td>100</td>
+					<td>80-200</td>
+					<td>Normal</td>
+				</tr>
+				<tr>
+					<td>ncb</td>
+					<td>60</td>
+					<td>80-220</td>
+					<td>low</td>
+				</tr>
+				<tr>
+					<td>fbc</td>
+					<td>5</td>
+					<td>2-20</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>crp</td>
+					<td>8</td>
+					<td>00-10</td>
+					<td>Noramal</td>
+				</tr>
+				<tr>
+					<td>bac</td>
+					<td>100</td>
+					<td>80-200</td>
+					<td>Normal</td>
+				</tr>
+				<tr>
+					<td>ncb</td>
+					<td>60</td>
+					<td>80-220</td>
+					<td>low</td>
+				</tr>
+			</table>
+		</div>
+	
+		<div class="edit">
+			Test Name :<input type="text" name="tname" id="tname">
+			Result :<input type="text" name="result" id="result">
+			Normal Range :<input type="text" name="range" id="range">
+			Observation :<input type="text" name="ob" id="ob">
+
+			<button class="btn" onclick="addHtmlTableRow();">Add</button>
+			<button class="btn" onclick="editHtmlTblSelectedRow();">Edit</button>
+			<button class="btn" onclick="removeSelectedRow();">Remove</button>
+		</div>
+	</div>
+
+
+
+	
+<!-- footer -->
+
+	<div class="footer">
+		<div class= "follow">Follow us on </div>
+		<div class="getthe">Get the app </div>
+		<div class="copy">Copyright &copy; Serendib Hospitals PLC <br> 253f, <br>Udaya Mawatha,<br> Malabe. </div>
+
+		<div class="socialbuttons">
+			<a href="https://www.facebook.com"><img src="images/footer/fb.png" alt="facebook" class="fb"></a>
+			<a href="https://www.instagram.com"><img src="images/footer/insta.webp" alt="instagram" class="insta"></a>
+			<a href="https://www.twitter.com"><img src="images/footer/twitter.png" alt="twitter" class="twitter"></a>
+			<a href="https://www.play.google.com"><img src="images/footer/android.png" alt="play store" class="android"></a>
+			<a href="https://www.apple.com/ios/app-store/"><img src="images/footer/ios.png" alt="app store" class="ios" ></a>
+		</div>
+
+	</div>
+	
+<script type="text/javascript">
+	selectedRowToInput();
+</script>
+<!-- end of page -->
+</body>
+</html>
